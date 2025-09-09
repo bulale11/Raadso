@@ -15,7 +15,7 @@ function Testimonials() {
   useEffect(() => {
     const id = setInterval(() => {
       setIndex((prev) => (prev + 1) % items.length);
-    }, 3500);
+    }, 5000);
     return () => clearInterval(id);
   }, [items.length]);
 

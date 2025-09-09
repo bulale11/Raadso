@@ -16,7 +16,7 @@ const Services = () => {
               </svg>
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">Property Rentals</h3>
-            <p className="text-sm sm:text-base text-gray-600">Find apartments, houses, and commercial spaces for short and long-term rentals across Somaliland.</p>
+            <p className="text-sm sm:text-base text-gray-600">Find apartments, houses, and commercial spaces for short and long-term rentals across Somaliland and Somalia.</p>
           </div>
           <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">

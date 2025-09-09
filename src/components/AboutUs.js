@@ -9,7 +9,7 @@ const AboutUs = () => {
             About Us
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
-            <strong>Raadso</strong> is a modern digital platform that simplifies access to real estate and hotel services across Somaliland. 
+            <strong>Raadso</strong> is a modern digital platform that simplifies access to real estate and hotel services across Somaliland and Somalia. 
             It connects property owners, hotel managers, and travellers with customers through an easy-to-use mobile application.
           </p>
         </div>
@@ -25,7 +25,7 @@ const AboutUs = () => {
             </div>
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Our Vision</h3>
             <p className="text-sm sm:text-base text-gray-600">
-              To become the leading platform for property rentals and hotel bookings in Somaliland, 
+              To become the leading platform for property rentals and hotel bookings in Somaliland and Somalia, 
               making quality accommodation accessible to everyone while supporting local property owners 
               and contributing to the growth of our tourism industry.
             </p>
@@ -42,7 +42,7 @@ const AboutUs = () => {
             <p className="text-sm sm:text-base text-gray-600">
               To provide a seamless, secure, and user-friendly platform that connects travelers and locals 
               with verified rental properties and hotels. We are committed to transparency, quality service, 
-              and building trust in the Somaliland accommodation market.
+              and building trust in the Somaliland and Somalia accommodation market.
             </p>
           </div>
         </div>

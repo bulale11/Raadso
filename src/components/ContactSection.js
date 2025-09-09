@@ -19,7 +19,11 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">Phone</p>
-                <p className="text-gray-600 text-sm sm:text-base">+252 61 234 5678</p>
+                <div className="text-gray-600 text-sm sm:text-base space-y-1">
+                  <p>+252 63 453 4421</p>
+                  <p>+252 65 933 7831</p>
+                  <p>+252 63 899 1023</p>
+                </div>
               </div>
             </div>
             <div className="flex items-start sm:items-center">
@@ -42,7 +46,10 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-semibold text-gray-900 text-sm sm:text-base">Address</p>
-                <p className="text-gray-600 text-sm sm:text-base">Hargeisa, Somaliland</p>
+                <div className="text-gray-600 text-sm sm:text-base space-y-1">
+                  <p><strong>Hargeisa Office:</strong> Road Number 2, Seeraar Building</p>
+                  <p><strong>Burao Office:</strong> Afgooye Street</p>
+                </div>
               </div>
             </div>
             <div className="flex items-start sm:items-center">

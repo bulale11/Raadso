@@ -25,9 +25,14 @@ const DownloadSection = () => {
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
               Download the Raadso app for iOS to find rental properties and hotels
             </p>
-            <button className="bg-gray-900 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 text-sm sm:text-base">
+            <a 
+              href="https://apps.apple.com/us/app/raadso/id6745891787" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-gray-900 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-200 text-sm sm:text-base"
+            >
               Download on App Store
-            </button>
+            </a>
           </div>
 
           {/* Android Download */}
@@ -41,9 +46,14 @@ const DownloadSection = () => {
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6">
               Download the Raadso app for Android to find rental properties and hotels
             </p>
-            <button className="bg-green-600 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 text-sm sm:text-base">
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.museabdirahman.raadso" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-green-600 text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 text-sm sm:text-base"
+            >
               Download on Google Play
-            </button>
+            </a>
           </div>
         </div>
       </div>
