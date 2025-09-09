@@ -20,31 +20,31 @@ function Testimonials() {
   }, [items.length]);
 
   return (
-    <section className="relative py-16 bg-blue-50">
-      <div className="relative max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-primary-600">Testimonials</h2>
+    <section className="relative py-12 sm:py-16 bg-blue-50">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-primary-600 text-center sm:text-left">Testimonials</h2>
 
         {/* 3-up rotating carousel */}
-        <div className="mt-8">
-          <div className="flex items-stretch gap-4 md:gap-6">
+        <div className="mt-6 sm:mt-8">
+          <div className="flex items-stretch gap-3 sm:gap-4 md:gap-6">
             {[index - 1, index, index + 1].map((i, pos) => {
               const safeIndex = (i + items.length) % items.length;
               const t = items[safeIndex];
               const isCenter = pos === 1;
               return (
                 <div key={`${t.name}-${safeIndex}`} className={`flex-1 transition-all duration-500 ${isCenter ? 'opacity-100' : 'opacity-60'}`}>
-                  <div className={`h-full bg-white border border-gray-200 rounded-2xl shadow-sm p-6 md:p-8 min-h-[300px] md:min-h-[360px] flex flex-col justify-between ${isCenter ? 'ring-1 ring-primary-200' : ''}`}>
+                  <div className={`h-full bg-white border border-gray-200 rounded-2xl shadow-sm p-4 sm:p-6 md:p-8 min-h-[280px] sm:min-h-[300px] md:min-h-[360px] flex flex-col justify-between ${isCenter ? 'ring-1 ring-primary-200' : ''}`}>
                     <div>
                       <div className="flex items-center gap-1 text-primary-600">
                         {Array.from({ length: 5 }).map((_, star) => (
-                          <svg key={star} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className={`h-5 w-5 ${star < (t.rating || 5) ? '' : 'text-gray-300'}`}>
+                          <svg key={star} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className={`h-4 w-4 sm:h-5 sm:w-5 ${star < (t.rating || 5) ? '' : 'text-gray-300'}`}>
                             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.802 2.036a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118L10.5 13.348a1 1 0 00-1.175 0l-2.884 2.125c-.785.57-1.84-.197-1.54-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.806 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.243-3.293z" />
                           </svg>
                         ))}
                       </div>
-                      <p className="mt-4 text-base md:text-lg text-gray-700 leading-relaxed">“{t.text}”</p>
+                      <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">"{t.text}"</p>
                     </div>
-                    <div className="pt-5 text-sm md:text-base text-gray-500">— {t.name}</div>
+                    <div className="pt-4 sm:pt-5 text-xs sm:text-sm md:text-base text-gray-500">— {t.name}</div>
                   </div>
                 </div>
               );
