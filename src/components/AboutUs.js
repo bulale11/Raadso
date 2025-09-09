@@ -16,7 +16,7 @@ const AboutUs = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Vision */}
-          <div className="bg-gray-50 p-8 rounded-lg">
+          <div className="bg-blue-50 p-8 rounded-lg">
             <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
               <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -32,7 +32,7 @@ const AboutUs = () => {
           </div>
 
           {/* Mission */}
-          <div className="bg-gray-50 p-8 rounded-lg">
+          <div className="bg-blue-50 p-8 rounded-lg">
             <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
               <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -46,6 +46,8 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
+
+        {/* Additional sections moved to Home.js */}
       </div>
     </section>
   );
